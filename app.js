@@ -1,5 +1,5 @@
 const express = require("express");
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
@@ -7,8 +7,8 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 
-dotenv.config();
-require("./src/config/dbconn")
+// dotenv.config();
+// require("./src/config/dbconn")
 
 const baseRouter = require('./src/routes/router');
 
